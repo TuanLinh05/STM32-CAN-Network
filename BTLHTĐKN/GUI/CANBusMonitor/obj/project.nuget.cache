@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "dgSpecHash": "iInBjJIBWDQ=",
+  "success": true,
+  "projectFilePath": "F:\\BTLHTĐKN\\GUI\\CANBusMonitor\\CANBusMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\harfbuzzsharp\\7.3.0.3\\harfbuzzsharp.7.3.0.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.3\\harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.3\\harfbuzzsharp.nativeassets.macos.7.3.0.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.3\\harfbuzzsharp.nativeassets.win32.7.3.0.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\opentk\\3.1.0\\opentk.3.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\opentk.glcontrol\\3.1.0\\opentk.glcontrol.3.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.7\\runtime.android-arm.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.android-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.7\\runtime.android-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.7\\runtime.android-x86.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.7\\runtime.linux-arm.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.7\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.7\\runtime.linux-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.7\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.7\\runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.7\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.7\\runtime.osx-x64.runtime.native.system.io.ports.10.0.7.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\scottplot\\5.0.56\\scottplot.5.0.56.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\scottplot.winforms\\5.0.56\\scottplot.winforms.5.0.56.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp\\2.88.9\\skiasharp.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.9\\skiasharp.harfbuzz.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\2.88.9\\skiasharp.nativeassets.linux.nodependencies.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.9\\skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.9\\skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.views.desktop.common\\2.88.9\\skiasharp.views.desktop.common.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\skiasharp.views.windowsforms\\2.88.9\\skiasharp.views.windowsforms.2.88.9.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.ports\\10.0.7\\system.io.ports.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'OpenTK 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "F:\\BTLHTĐKN\\GUI\\CANBusMonitor\\CANBusMonitor.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\BTLHTĐKN\\GUI\\CANBusMonitor\\CANBusMonitor.csproj",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'OpenTK.GLControl 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "F:\\BTLHTĐKN\\GUI\\CANBusMonitor\\CANBusMonitor.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\BTLHTĐKN\\GUI\\CANBusMonitor\\CANBusMonitor.csproj",
+      "libraryId": "OpenTK.GLControl",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    }
+  ]
+}
