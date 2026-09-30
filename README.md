@@ -5,6 +5,8 @@
 ![CAN](https://img.shields.io/badge/CAN-125%20kbps-455A64)
 ![GUI](https://img.shields.io/badge/GUI-C%23%20WinForms%20%2B%20ScottPlot-512BD4?logo=dotnet&logoColor=white)
 
+<a id="english"></a>**🇬🇧 English** · [🇻🇳 Tiếng Việt](#tieng-viet)
+
 A 3-node **CAN bus network** built from STM32 boards, with a **C# WinForms monitor** on the PC.
 An **STM32H743** master (FDCAN, classic mode) bridges the PC and the bus, an **STM32F407** slave acquires analog data, and an **STM32F429** slave runs **closed-loop DC motor speed control (PID)**. The whole network can be monitored and tuned from the GUI in real time.
 
@@ -79,6 +81,36 @@ BTLHTĐKN/
 3. Connect a USB-TTL adapter to the H743: adapter TX → **PB15**, adapter RX → **PB14**, GND → GND.
 4. Open `GUI/CANBusMonitor` in **Visual Studio** (.NET, Windows), run it, choose the COM port and press **Connect**.
 5. Follow the test scenarios in [`Documents/New_CAN_Test_Plan.md`](BTLHTĐKN/Documents/New_CAN_Test_Plan.md) and the [GUI user guide](BTLHTĐKN/Documents/GUI_User_Guide.md).
+
+---
+
+<a id="tieng-viet"></a>
+
+## 🇻🇳 Tiếng Việt
+
+[🇬🇧 English](#english) · **🇻🇳 Tiếng Việt**
+
+**Mạng CAN bus** 3 node dùng các board STM32, kèm **phần mềm giám sát C# WinForms** trên máy tính.
+Master **STM32H743** (FDCAN, chế độ classic) làm cầu nối giữa máy tính và bus. Slave **STM32F407** thu thập tín hiệu analog. Slave **STM32F429** **điều khiển tốc độ động cơ DC vòng kín (PID)**. Toàn bộ mạng có thể giám sát và chỉnh thông số theo thời gian thực từ phần mềm.
+
+### ✨ Tính năng
+
+- **Giao tiếp master–slave và peer-to-peer:** master gửi lệnh tới từng slave, các slave cũng nói chuyện trực tiếp được với nhau.
+- **Kiểm thử phân xử (arbitration):** ID nhỏ hơn luôn thắng, nên lệnh của master được ưu tiên.
+- **CAN sniffer:** H743 đẩy toàn bộ lưu lượng trên bus lên máy tính, kèm thời gian, ID và dữ liệu.
+- **Thu thập dữ liệu (Slave 1):** đọc ADC 3 kênh và gửi liên tục lên phần mềm.
+- **Điều khiển động cơ (Slave 2):** cầu H với PWM mềm 10 kHz, encoder đọc bằng TIM4, RPM có lọc thông thấp, **bộ điều khiển PID tốc độ** với hệ số chỉnh từ máy tính.
+- **Cửa sổ chỉnh PID:** biểu đồ *Setpoint và RPM thực tế*, hiển thị sai số / đầu ra / tích phân, thử đáp ứng bậc thang (step test) và **xuất CSV**.
+
+Sơ đồ kiến trúc, bảng CAN ID và giao thức UART: xem phần tiếng Anh ở trên.
+
+### 🚀 Hướng dẫn sử dụng
+
+1. Nối 3 board qua **module CAN transceiver** vào cùng một bus (CAN_H, CAN_L, điện trở 120 Ω ở hai đầu, chung GND).
+2. Mở từng project trong `MCU/` bằng **STM32CubeIDE**, build và nạp cho đúng board.
+3. Nối USB-TTL với H743: TX của module → **PB15**, RX của module → **PB14**, GND → GND.
+4. Mở `GUI/CANBusMonitor` bằng **Visual Studio** (.NET, Windows), chạy, chọn cổng COM rồi bấm **Connect**.
+5. Làm theo các kịch bản kiểm thử trong [`Documents/New_CAN_Test_Plan.md`](BTLHTĐKN/Documents/New_CAN_Test_Plan.md) và [hướng dẫn sử dụng GUI](BTLHTĐKN/Documents/GUI_User_Guide.md).
 
 ---
 
