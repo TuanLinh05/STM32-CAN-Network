@@ -65,7 +65,7 @@ An **STM32H743** master (FDCAN, classic mode) bridges the PC and the bus, an **S
 ## 📂 Project structure
 
 ```text
-BTLHTĐKN/
+STM32-CAN-Network/
 ├── MCU/
 │   ├── Master_H743_Ver_1/   # STM32H743 master: FDCAN + UART bridge + CAN sniffer
 │   ├── SLAVE_F407_Ver_2/    # STM32F407 slave: 3-channel ADC acquisition
@@ -80,7 +80,7 @@ BTLHTĐKN/
 2. Open each project in `MCU/` with **STM32CubeIDE**, build and flash it to its board.
 3. Connect a USB-TTL adapter to the H743: adapter TX → **PB15**, adapter RX → **PB14**, GND → GND.
 4. Open `GUI/CANBusMonitor` in **Visual Studio** (.NET, Windows), run it, choose the COM port and press **Connect**.
-5. Follow the test scenarios in [`Documents/New_CAN_Test_Plan.md`](BTLHTĐKN/Documents/New_CAN_Test_Plan.md) and the [GUI user guide](BTLHTĐKN/Documents/GUI_User_Guide.md).
+5. Follow the test scenarios in [`Documents/New_CAN_Test_Plan.md`](Documents/New_CAN_Test_Plan.md) and the [GUI user guide](Documents/GUI_User_Guide.md).
 
 ---
 
@@ -110,7 +110,7 @@ Sơ đồ kiến trúc, bảng CAN ID và giao thức UART: xem phần tiếng A
 2. Mở từng project trong `MCU/` bằng **STM32CubeIDE**, build và nạp cho đúng board.
 3. Nối USB-TTL với H743: TX của module → **PB15**, RX của module → **PB14**, GND → GND.
 4. Mở `GUI/CANBusMonitor` bằng **Visual Studio** (.NET, Windows), chạy, chọn cổng COM rồi bấm **Connect**.
-5. Làm theo các kịch bản kiểm thử trong [`Documents/New_CAN_Test_Plan.md`](BTLHTĐKN/Documents/New_CAN_Test_Plan.md) và [hướng dẫn sử dụng GUI](BTLHTĐKN/Documents/GUI_User_Guide.md).
+5. Làm theo các kịch bản kiểm thử trong [`Documents/New_CAN_Test_Plan.md`](Documents/New_CAN_Test_Plan.md) và [hướng dẫn sử dụng GUI](Documents/GUI_User_Guide.md).
 
 ---
 
